@@ -49,7 +49,7 @@ Pokud je zadaný argument programu  --stats, program musí na konec výstupu vyp
 
 `Ruznych znaku: NCHARS`\
 `Minimalni delka: MIN`\
-`Prumerna delka: AVG`\
+`Prumerna delka: AVG`
 
 kde  NCHARS  je  _počet různých znaků_  vyskytujících se napříč všemi hesly,  MIN  je  _délka nejkratšího hesla_  (resp. hesel) a  AVG  je  _průměrná délka hesla_  (aritmetický průměr) zaokrouhlená na 1 desetiné místo. Statistiky zahrňují i hesla, která byla zahozena.
 
