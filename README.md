@@ -15,7 +15,8 @@ Program překládejte s následujícími argumenty:
 
 ## Syntax spuštění
 
-`./pwcheck LEVEL PARAM [--stats]`
+`./pwcheck LEVEL PARAM [--stats]`\
+\
 Program je spouštěn se dvěma pevně zadanými argumenty LEVEL a PARAM a s jedním volitelným argumentem --stats, případně zadaným na třetí pozici:
 **LEVEL**
 celé číslo v intervalu [1, 4], které určuje požadovanou  _úroveň bezpečnosti_  (viz níže)
@@ -46,9 +47,9 @@ Seznam pravidel:
 
 Pokud je zadaný argument programu  --stats, program musí na konec výstupu vypsat celkové statistiky ve formátu:
 
-`Ruznych znaku: NCHARS`
-`Minimalni delka: MIN`
-`Prumerna delka: AVG`
+`Ruznych znaku: NCHARS`\
+`Minimalni delka: MIN`\
+`Prumerna delka: AVG`\
 
 kde  NCHARS  je  _počet různých znaků_  vyskytujících se napříč všemi hesly,  MIN  je  _délka nejkratšího hesla_  (resp. hesel) a  AVG  je  _průměrná délka hesla_  (aritmetický průměr) zaokrouhlená na 1 desetiné místo. Statistiky zahrňují i hesla, která byla zahozena.
 
