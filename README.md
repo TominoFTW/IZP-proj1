@@ -17,7 +17,7 @@ Program překládejte s následujícími argumenty:
 
 `./pwcheck LEVEL PARAM [--stats]`\
 \
-Program je spouštěn se dvěma pevně zadanými argumenty LEVEL a PARAM a s jedním volitelným argumentem --stats, případně zadaným na třetí pozici:
+Program je spouštěn se dvěma pevně zadanými argumenty LEVEL a PARAM a s jedním volitelným argumentem --stats, případně zadaným na třetí pozici:\
 **LEVEL**
 celé číslo v intervalu [1, 4], které určuje požadovanou  _úroveň bezpečnosti_  (viz níže)
 
